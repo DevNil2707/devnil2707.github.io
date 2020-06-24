@@ -39,7 +39,7 @@ h1,nav{
 }
 .left
 {
-    width: 84%;
+    width: 83%;
     margin-left: 2em;
     font-size: 1.1em; 
 }
@@ -72,6 +72,7 @@ h1,nav{
 {
     display: flex;
     justify-content: space-around;
+    width: 50%;
     }
 li
 {
