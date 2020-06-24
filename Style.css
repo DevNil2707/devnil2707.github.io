@@ -1,0 +1,133 @@
+body{
+    font-family: 'open_sansregular','open_sansbold',Arial,impact;
+    text-align: justify;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('police/OpenSans-Regular-webfont.eot');
+    src: url('police/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('police/OpenSans-Regular-webfont.woff') format('woff'),
+         url('police/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('police/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('police/OpenSans-Bold-webfont.eot');
+    src: url('police/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/OpenSans-Bold-webfont.woff2') format('woff2'),
+         url('police/OpenSans-Bold-webfont.woff') format('woff'),
+         url('police/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('police/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1,nav{
+	color: white;
+}
+.identité
+{
+   border-radius: 100px;
+}
+#all
+ {
+    display: flex;
+}
+.left
+{
+    width: 84%;
+    margin-left: 2em;
+    font-size: 1.1em; 
+}
+.dates
+{
+    color: #C5C0BF
+}
+.infoperso
+{
+    
+}
+.conteneur
+{
+    
+}
+.Important
+{
+	color: #ff7f27;
+}
+.regular{
+	font-weight: normal;
+}
+.Experience,.diplomes,.professionnelles,.Informatique,.apdm
+{
+
+    width: 100%;
+    margin-left: 0.4em;
+} 
+.social
+{
+    display: flex;
+    justify-content: space-around;
+    }
+li
+{
+	font-weight: bold;
+    list-style-type: 
+}
+body{
+	background-image: url("test.png");
+	background-attachment: scroll;
+	background-repeat: repeat-y;
+}
+
+    /* Pour Telephone et tablette */
+
+@media(max-width:1080px) 
+{
+    
+    body{
+        background-image: none;
+        background-color: #ff7f27;
+        overflow-x: hidden;
+
+    }
+    #all{
+        display: inline-flex;
+        flex-direction: column;
+        text-align: justify;
+        box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7), /* cadre fantome */
+        -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+
+    }
+    #conteneur{
+        width: 90%;
+    }
+    .identité{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2px;
+    }
+    .Important{
+        color: grey;
+    }
+    .dates{
+        color: white;
+    }
+    h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em
+    }
+    h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 5.5em
+    }
+    li{
+        margin-left: 1px;
+    }
