@@ -34,6 +34,7 @@ h1,nav{
 .identité
 {
    border-radius: 100px;
+   padding-top: 3px;
 }
 #all
  {
@@ -74,7 +75,7 @@ h1,nav{
 {
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    width: 90%;
 }
 .fa-linkedin,.fa-facebook,.fa-instagram{  /* boite interractive */
     padding: 10px 20px;
@@ -83,11 +84,20 @@ h1,nav{
     border-radius: 25px;
     text-decoration: none;
     width: 30%;
-    color: white;
+    color: black;
 }
-.fa-linkedin,.fa-facebook,.fa-instagram:hover{
-  
+.fa-instagram:hover{
+    background: grey;
+    color: white;
     }
+.fa-linkedin:hover{
+    background: grey;
+    color: white;
+    }
+.fa-facebook:hover{
+    background: grey;
+    color: white;
+    }    
 }
 li
 {
@@ -111,14 +121,15 @@ li
         background-image: none;
         background-color: #ff7f27;
         overflow-x: hidden;
+        box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7), /* cadre fantome */
+        -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
 
     }
     #all{
         display: inline-flex;
         flex-direction: column;
         text-align: justify;
-        box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7), /* cadre fantome */
-        -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+        
     }
     #conteneur{
         width: 90%;
@@ -137,7 +148,7 @@ li
         color: white;
     }
     .social{
-
+        width: 110%;
     }
     h1{
     margin-left: auto;
