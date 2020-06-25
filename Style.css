@@ -1,6 +1,8 @@
 body{
     font-family: 'open_sansregular','open_sansbold',Arial,impact;
-    text-align: justify;
+    margin:0px;
+    overflow-x: hidden;
+
 }
 @font-face {
     font-family: 'open_sansregular';
@@ -40,8 +42,9 @@ h1,nav{
 .left
 {
     width: 83%;
-    margin-left: 2em;
-    font-size: 1.1em; 
+    margin-left:0px;
+    font-size: 1.1em;
+    padding-left: 2em; 
 }
 .dates
 {
@@ -53,7 +56,7 @@ h1,nav{
 }
 .conteneur
 {
-    
+  text-align: justify;  
 }
 .Important
 {
@@ -65,23 +68,25 @@ h1,nav{
 .Experience,.diplomes,.professionnelles,.Informatique,.apdm
 {
 
-    width: 100%;
     margin-left: 0.4em;
 } 
 .social
 {
     display: flex;
     justify-content: space-around;
+    width: 70%;
+}
+.fa-linkedin,.fa-facebook,.fa-instagram{  /* boite interractive */
     padding: 10px 20px;
     border: 1px solid grey;
     margin: 20px 0;
     border-radius: 25px;
     text-decoration: none;
-    width: 70%;
-}
-.social:hover{
-    background: black;
+    width: 30%;
     color: white;
+}
+.fa-linkedin,.fa-facebook,.fa-instagram:hover{
+  
     }
 }
 li
@@ -89,9 +94,10 @@ li
 	font-weight: bold;
     list-style-type: 
 }
-.left{
-    background-color: #ff7f27;
-    background-position-x:25%;
+.left{                                      /* background en orange sur la partie gauche */
+    background-color: #ff7f27;              /* Orange */
+    background-position-x:25%;              /* position sur la gauche legerement */
+
 
 }
 
@@ -113,10 +119,10 @@ li
         text-align: justify;
         box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7), /* cadre fantome */
         -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
-
     }
     #conteneur{
         width: 90%;
+        text-align: none
     }
     .identité{
         display: block;
@@ -129,6 +135,9 @@ li
     }
     .dates{
         color: white;
+    }
+    .social{
+
     }
     h1{
     margin-left: auto;
