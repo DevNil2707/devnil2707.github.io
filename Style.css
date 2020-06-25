@@ -1,6 +1,6 @@
 body{
     font-family: 'open_sansregular','open_sansbold',Arial,impact;
-    margin:0px;
+    margin:0px;                                                                     /* rempllissage des des marges */
     overflow-x: hidden;
 
 }
@@ -40,7 +40,7 @@ h1,nav{
  {
     display: flex;
 }
-.left
+.left                                   /* presentation de gauche et Nav*/
 {
     width: 83%;
     margin-left:0px;
@@ -57,7 +57,7 @@ h1,nav{
 }
 .conteneur
 {
-  text-align: justify;  
+  text-align: justify;                      /* text qui prend toute la place*/ 
 }
 .Important
 {
@@ -74,7 +74,7 @@ h1,nav{
 .social
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;        /* espace entre les bts */
     width: 90%;
 }
 .fa-linkedin,.fa-facebook,.fa-instagram{  /* boite interractive */
@@ -86,7 +86,7 @@ h1,nav{
     width: 30%;
     color: black;
 }
-.fa-instagram:hover{
+.fa-instagram:hover{                     /* les btns interact pour .Social */             
     background: grey;
     color: white;
     }
@@ -118,9 +118,9 @@ li
 {
     
     body{
-        background-image: none;
+        background-image: none;                 /* fond entierement Orange*/
         background-color: #ff7f27;
-        overflow-x: hidden;
+        overflow-x: hidden;                     /* btm-barre  qui est caché*/
     }
     #all{
         display: inline-flex;
