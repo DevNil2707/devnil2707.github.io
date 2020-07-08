@@ -53,10 +53,6 @@ h1,nav{
 {
     color: #C5C0BF
 }
-.infoperso
-{
-    
-}
 .conteneur
 {
   text-align: justify;                      /* text qui prend toute la place*/ 
@@ -221,7 +217,7 @@ li
     }
     #conteneur{
         width: 90%;
-        text-align: none
+        text-align: none;
     }
     .identité{
         display: block;
@@ -241,13 +237,14 @@ li
     h1{
     margin-left: auto;
     margin-right: auto;
-    width: 5em
+    width: 5em;
     }
     h2{
     margin-left: auto;
     margin-right: auto;
-    width: 5.5em
+    width: 5.5em;
     }
     li{
         margin-left: 1px;
     }
+}
