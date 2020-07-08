@@ -100,11 +100,10 @@ h1,nav{
     background: grey;
     color: white;
     }    
-}
+
 li
 {
 	font-weight: bold;
-    list-style-type: 
 }
 .left{                                      /* background en orange sur la partie gauche */
     background-color: #ff7f27;              /* Orange */
@@ -251,4 +250,4 @@ li
     }
     li{
         margin-left: 1px;
-    } 
+    }
