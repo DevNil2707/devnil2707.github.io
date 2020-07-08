@@ -88,12 +88,12 @@ h1,nav{
     width: 30%;
     color: black;
 }
-.fa-instagram:hover{                     /* les btns interact pour .Social */             
+.fa-instagram:hover{                     /* changement de couleur lors du sur-vole*/             
     background: grey;
     color: white;
     }
 .fa-linkedin:hover{
-    background: grey;
+    background: grey;                
     color: white;
     }
 .fa-facebook:hover{
@@ -216,7 +216,7 @@ li
     }
     #all{
         display: inline-flex;
-        flex-direction: column;
+        flex-direction: column;                 /* disposition en colone */ 
         text-align: justify;
         
     }
@@ -237,7 +237,7 @@ li
         color: white;
     }
     .social{
-        width: 110%;
+        width: 110%;      /* largeur de la classe dans un telephone ou une tablette */
     }
     h1{
     margin-left: auto;
