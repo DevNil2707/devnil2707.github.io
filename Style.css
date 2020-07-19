@@ -2,6 +2,7 @@ body{
     font-family: 'open_sansregular','open_sansbold',Arial,impact;
     margin: 0px;                                                                     /* rempllissage des des marges */
     overflow-x: hidden;
+    display: flex;
 }
 @font-face {                                                                        /* type de police */ 
     font-family: 'open_sansregular';
@@ -191,11 +192,11 @@ li
     color: #000;
     opacity: 0.06;
 }
-.year{
-    padding-right: 100px;
+.year,.year2{
+    padding-right: 100px;              /* espace entre Date et texte */
 }
 .year1{
-    padding-right: 145px;
+    padding-right: 145px;              /* // pour le 3eme table */
 }
 
     /* Pour Telephone et tablette */
@@ -204,12 +205,8 @@ li
 {
     
     body{
-        background-image: none;                 /* fond entierement Orange*/
         background-color: #ff7f27;
-        overflow-x: hidden;                     /* btm-barre  qui est caché*/
-        display:flex;
-        flex-direction: column;                 /* disposition en colone */ 
-        justify-content: center;
+        overflow-x: hidden;                     /* btm-barre  qui est caché*/            
     }
     #conteneur{
         width: 90%;
@@ -240,7 +237,22 @@ li
     margin-right: auto;
     width: 5.5em;
     }
-    li{
+    table{
         margin-left: 1px;
     }
+    #all{
+        display: flex;
+        flex-direction: column;
+        padding-left: 70px; 
+        margin: auto;
+    }
+    h1,h2,img{
+        text-align: center;
+    }
+    .year2,.year1{
+        padding-right: 100px;
+    }
+    .infoperso{
+        text-align: center;
+        }
 }
