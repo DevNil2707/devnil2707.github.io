@@ -1,4 +1,5 @@
 body{
+    font-size: 1.2em;
     font-family: 'open_sansregular','open_sansbold',Arial,impact;
     margin: 0px;                                                                     /* rempllissage des des marges */
     overflow-x: hidden;
@@ -198,7 +199,7 @@ h1,nav{
     body{
         background-color: #ff7f27;
         overflow-x: hidden;                     /* btm-barre  qui est caché*/  
-        font-size: 1.4em;          
+        font-size: 1.2em;          
     }
     #conteneur{
         width: 90%;
