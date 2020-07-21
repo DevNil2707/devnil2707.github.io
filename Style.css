@@ -187,9 +187,9 @@ h1,nav{
     color: #000;
     opacity: 0.06;
 }
-.year,{
-    padding-right: 100px;              /* espace entre Date et texte */
-}
+.year{
+    padding-right: 100px;           /* espace entre Date et texte */
+}     
     /* Pour Telephone et tablette */
 
 @media(max-width:1024px) 
