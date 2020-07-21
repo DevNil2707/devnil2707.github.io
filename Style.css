@@ -189,7 +189,7 @@ h1,nav{
     opacity: 0.06;
 }
 .year{
-    width: 20%;           /* espace entre Date et texte */
+    width: 150px;           /* espace entre Date et texte */
 }     
     /* Pour Telephone et tablette */
 
@@ -242,9 +242,9 @@ h1,nav{
     h1,h2,img{
         text-align: center;
     }
-    .year2,.year1{
-        padding-right: 100px;
-    }
+.year{
+    width: 20%;
+}
     .infoperso{
         text-align: center;
         }
