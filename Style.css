@@ -187,13 +187,9 @@ h1,nav{
     color: #000;
     opacity: 0.06;
 }
-.year,.year2{
+.year,{
     padding-right: 100px;              /* espace entre Date et texte */
 }
-.year1{
-    padding-right: 145px;              /* // pour le 3eme table */
-}
-
     /* Pour Telephone et tablette */
 
 @media(max-width:1024px) 
