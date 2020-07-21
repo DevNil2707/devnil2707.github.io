@@ -188,7 +188,7 @@ h1,nav{
     opacity: 0.06;
 }
 .year{
-    padding-right: 100px;           /* espace entre Date et texte */
+    width: 20%;           /* espace entre Date et texte */
 }     
     /* Pour Telephone et tablette */
 
