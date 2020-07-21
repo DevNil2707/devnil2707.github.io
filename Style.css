@@ -197,7 +197,8 @@ h1,nav{
     
     body{
         background-color: #ff7f27;
-        overflow-x: hidden;                     /* btm-barre  qui est caché*/            
+        overflow-x: hidden;                     /* btm-barre  qui est caché*/  
+        font-size: 1.4em;          
     }
     #conteneur{
         width: 90%;
