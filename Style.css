@@ -30,7 +30,7 @@ body{
 
 }
 h1,nav{
-	color: white;
+	color: white;                   /*couleur du titre*/
 }
 .identité
 {
@@ -191,6 +191,8 @@ h1,nav{
 .year{
     width: 150px;           /* espace entre Date et texte */
 }     
+
+
     /* Pour Telephone et tablette */
 
 @media(max-width:1024px) 
@@ -218,7 +220,7 @@ h1,nav{
         color: white;
     }
     .social{
-        width: 110%;      /* largeur de la classe dans un telephone ou une tablette */
+        width: 110%;                        /* largeur de la classe dans un telephone ou une tablette */
     }
     h1{
     margin-left: auto;
@@ -243,7 +245,7 @@ h1,nav{
         text-align: center;
     }
 .year{
-    width: 20%;
+    width: 20%;                         /*largeur entre date et txt pour le tel et tablette*/
 }
     .infoperso{
         text-align: center;
