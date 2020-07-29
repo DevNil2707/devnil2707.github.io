@@ -1,11 +1,11 @@
 body{
     font-size: 1.2em;
     font-family: 'open_sansregular','open_sansbold',Arial,impact;
-    margin: 0px;                                                                     /* rempllissage des des marges */
+    margin: 0px;                             /* rempllissage des des marges */
     overflow-x: hidden;
     display: flex;
 }
-@font-face {                                                                        /* type de police */ 
+@font-face {                                  /* type de police */ 
     font-family: 'open_sansregular';
     src: url('police/OpenSans-Regular-webfont.eot');
     src: url('police/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -48,6 +48,7 @@ h1,nav{
     font-size: 1.1em;
     padding-left: 2em; 
     background-color: #ff7f27;              /* Orange */
+    background: linear-gradient(165deg, #ff7f27 0%, #ffffff 100%);
     background-position-x:25%;              /* position sur la gauche legerement */
 }
 .dates
