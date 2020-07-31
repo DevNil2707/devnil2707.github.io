@@ -1,61 +1,96 @@
 body{
     font-size: 1.2em;
-    font-family: 'open_sansregular','open_sansbold',Arial,impact;
+    font-family: 'CarroisGothic';
     margin: 0px;                             /* rempllissage des des marges */
     overflow-x: hidden;
     display: flex;
 }
-@font-face {                                  /* type de police */ 
-    font-family: 'open_sansregular';
-    src: url('police/OpenSans-Regular-webfont.eot');
-    src: url('police/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('police/OpenSans-Regular-webfont.woff2') format('woff2'),
-         url('police/OpenSans-Regular-webfont.woff') format('woff'),
-         url('police/OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('police/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+
+
+@font-face{
+    font-family: 'CarroisGothic';
+    src: url('CarroisGothic-Regular.ttf');
     font-weight: normal;
     font-style: normal;
+}
 
-}
-@font-face {
-    font-family: 'open_sansbold';
-    src: url('police/OpenSans-Bold-webfont.eot');
-    src: url('police/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('police/OpenSans-Bold-webfont.woff2') format('woff2'),
-         url('police/OpenSans-Bold-webfont.woff') format('woff'),
-         url('police/OpenSans-Bold-webfont.ttf') format('truetype'),
-         url('police/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-h1,nav{
-	color: white;                   /*couleur du titre*/
-}
 .identité
 {
-   border-radius: 100px;
-   padding-top: 3px;
+    margin-top: 2%;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    width : 150px; height : 150px;
+    border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+}
+.fa-basketball-ball{
+    font-size: 110%;
+}
+.dot-circle-dot-space{    /* espace entre icon et date*/
+    padding-right: 10%;
+}
+.fa-circle{
+    font-size: 50%;
+}
+.fa-circle,.fa-dot-circle,.fa-briefcase,.fa-graduation-cap,.fa-running{
+    color: #ff7f27;
+}
+.fa-briefcase,.fa-graduation-cap,.fa-running{
+    padding-right: 1em;
 }
 #all
  {
     display: flex;
 }
+table{
+    display: flex;
+    border-top: solid;
+    border-color: #ff7f27;
+    line-height: 2em;
+}
 .left                                   /* presentation de gauche et Nav*/
 {
-    width: 83%;
+    width: 25%;
     margin-left:0px;
     font-size: 1.1em;
-    padding-left: 2em; 
     background-color: #ff7f27;              /* Orange */
-    background: linear-gradient(165deg, #ff7f27 0%, #ffffff 100%);
-    background-position-x:25%;              /* position sur la gauche legerement */
+    background: linear-gradient(90deg, #ff7f27 0%, #ffffff 100%);
+}
+.h2-left{
+    color: linear-gradient(90deg, #ffffff 0%, black 100%);
+    background-color:black;              /* Orange */
+    background: linear-gradient(90deg, black 0%, #ffffff 100%);
+    text-align: center;
+    margin-bottom: 0;
+    color:white;
+}
+.centre{
+    padding: 13%;
+}
+span#name{
+    font-weight: bold;
+    color:  #ff7f27;
+}
+h1{
+    font-weight: normal;
+    margin-bottom: 0;
+}
+p#job{
+    margin-top: 0;
+    font-weight: bold;
+}
+span#decoration{
+    text-decoration: underline;
+    text-decoration-color: #ff7f27;
 }
 .dates
 {
     color: #C5C0BF
 }
-.conteneur
+.container
 {
   text-align: justify;                      /* text qui prend toute la place*/ 
 }
@@ -66,11 +101,14 @@ h1,nav{
 .regular{
 	font-weight: normal;
 }
-.Experience,.diplomes,.professionnelles,.Informatique,.apdm  /* marge pour le text */ 
+.xp,.diplomes,.professionnelles,.inf /* marge pour le text */ 
 {
 
     margin-left: 0.4em;
 } 
+div#container {
+    padding-right: 5%;
+}
 .social
 {
     display: flex;
@@ -98,97 +136,6 @@ h1,nav{
     background: grey;
     color: white;
     }    
-.progress-bar {                             /* La structurre de la barre de progression */
-    width: 300px;
-    height: 24px;
-    padding: 4px;
-    background-color: #191919;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    margin-right: 5px;
-}
-.progress-bar:before {                      /* remplissage de la barre de pregression */
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100px;
-    height: 24px;
-    background: #999;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-}
-.progress-bar:after {                      /* rayures barre de progression */ 
-    content: '|||||||||||||';
-    display: block;
-    position: absolute;
-    width: 100px;
-    height: 24px;
-    overflow: hidden;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    transform: skewX(-30deg);
-    -webkit-transform: skewX(-30deg);
-    -moz-transform: skewX(-30deg);
-    -o-transform: skewX(-30deg);
-    font: bold 120px/80px sans-serif;
-    letter-spacing: -6px;
-    color: #000;
-    opacity: 0.06;
-}
-.progress-bar2 {                            /* deuxieme barre de progression */ 
-    width: 300px;
-    height: 24px;  
-    padding: 4px;
-    background-color: #191919;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-}
-.progress-bar2:before { 
-    content: '';
-    display: block;
-    position: absolute;
-    width: 200px;
-    height: 24px;
-    background: #999;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
-}
-.progress-bar2:after { 
-    content: '|||||||||||||';
-    display: block;
-    position: absolute;
-    width: 200px;
-    height: 24px;
-    overflow: hidden;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    transform: skewX(-30deg);
-    -webkit-transform: skewX(-30deg);
-    -moz-transform: skewX(-30deg);
-    -o-transform: skewX(-30deg);
-    font: bold 120px/80px sans-serif;
-    letter-spacing: -6px;
-    color: #000;
-    opacity: 0.06;
-}
 .year{
     width: 150px;           /* espace entre Date et texte */
 }     
@@ -199,56 +146,5 @@ h1,nav{
 @media(max-width:1024px) 
 {
     
-    body{
-        background-color: #ff7f27;
-        overflow-x: hidden;                     /* btm-barre  qui est caché*/  
-        font-size: 1.2em;          
-    }
-    #conteneur{
-        width: 90%;
-        text-align: none;
-    }
-    .identité{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2px;
-    }
-    .Important{
-        color: grey;
-    }
-    .dates{
-        color: white;
-    }
-    .social{
-        width: 110%;                        /* largeur de la classe dans un telephone ou une tablette */
-    }
-    h1{
-    margin-left: auto;
-    margin-right: auto;
-    width: 5em;
-    }
-    h2{
-    margin-left: auto;
-    margin-right: auto;
-    width: 5.5em;
-    }
-    table{
-        margin-left: 1px;
-    }
-    #all{
-        display: flex;
-        flex-direction: column;
-        padding-left: 70px; 
-        margin: auto;
-    }
-    h1,h2,img{
-        text-align: center;
-    }
-.year{
-    width: 20%;                         /*largeur entre date et txt pour le tel et tablette*/
-}
-    .infoperso{
-        text-align: center;
-        }
+ 
 }
