@@ -31,7 +31,7 @@ body{
     font-size: 110%;
 }
 .dot-circle-dot-space{    /* espace entre icon et date*/
-    padding-right: 10%;
+    padding-right: 5em;
 }
 .fa-circle{
     font-size: 50%;
@@ -87,7 +87,7 @@ span#decoration{
     text-decoration: underline;
     text-decoration-color: #ff7f27;
 }
-.dates
+.grey
 {
     color: #C5C0BF
 }
@@ -138,7 +138,7 @@ div#container {
     color: white;
     }    
 .year{
-    width: 150px;           /* espace entre Date et texte */
+    width: 10em;           /* espace entre Date et texte */
 }     
 
 
