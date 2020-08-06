@@ -36,16 +36,13 @@ body{
 .fa-circle{
     font-size: 50%;
 }
-.fa-circle,.fa-dot-circle,.fa-briefcase,.fa-graduation-cap,.fa-running{
+.fa-circle,.fa-dot-circle,.fa-briefcase,.fa-graduation-cap,.fa-running,.fa-desktop {
     color: #ff7f27;
 }
-.fa-briefcase,.fa-graduation-cap,.fa-running{
+.fa-briefcase,.fa-graduation-cap,.fa-running,.fa-desktop{
     padding-right: 1em;
 }
-#all
- {
-    display: flex;
-}
+
 table{
     display: flex;
     border-top: solid;
@@ -61,7 +58,6 @@ table{
     background: linear-gradient(90deg, #ff7f27 0%, #ffffff 100%);
 }
 .h2-left{
-    color: linear-gradient(90deg, #ffffff 0%, black 100%);
     background-color:black;              /* Orange */
     background: linear-gradient(90deg, black 0%, #ffffff 100%);
     text-align: center;
@@ -70,6 +66,9 @@ table{
 }
 .centre{
     padding: 13%;
+}
+#ball-center{
+    text-align: center;
 }
 span#name{
     font-weight: bold;
@@ -140,11 +139,6 @@ div#container {
 .year{
     width: 10em;           /* espace entre Date et texte */
 }     
-
-
-    /* Pour Telephone et tablette */
-
-@media(max-width:1024px)
-{
-
+header{
+    display: none;
 }
