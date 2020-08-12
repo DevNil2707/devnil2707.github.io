@@ -70,7 +70,7 @@ table{
 #ball-center{
     text-align: center;
 }
-span#name{
+span.name{
     font-weight: bold;
     color:  #ff7f27;
 }
