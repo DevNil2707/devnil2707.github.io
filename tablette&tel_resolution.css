@@ -28,7 +28,7 @@ body{
      line-height: 2.5em;
  }
  td{
-    border-bottom: dashed gainsboro;
+         border-bottom: dashed gainsboro;
  }
  .fa-basketball-ball:before{
      font-size: 3em;
