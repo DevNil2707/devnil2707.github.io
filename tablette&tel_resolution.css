@@ -14,7 +14,7 @@ body{
      display: flex;
  }
  /*nom et job cahcé pour la mise en page*/
- .h1-ordi,#job{
+ .h1-ordi,.job{
      display: none;
  }
  h1{

@@ -78,7 +78,7 @@ h1{
     font-weight: normal;
     margin-bottom: 0;
 }
-p#job{
+p.job{
     margin-top: 0;
     font-weight: bold;
 }
