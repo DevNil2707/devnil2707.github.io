@@ -13,6 +13,10 @@ body{
  header{
      display: flex;
  }
+ span.decoration{
+    text-decoration: underline;
+    text-decoration-color: #ff7f27;
+}
  /*nom et job cahcé pour la mise en page*/
  .h1-ordi,.job{
      display: none;
