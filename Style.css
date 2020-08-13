@@ -82,7 +82,7 @@ p.job{
     margin-top: 0;
     font-weight: bold;
 }
-span#decoration{
+span.decoration{
     text-decoration: underline;
     text-decoration-color: #ff7f27;
 }
