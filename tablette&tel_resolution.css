@@ -22,20 +22,20 @@ body{
      display: none;
  }
  h1{
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
  }
  .dot-circle-dot-space{    /* espace entre icon et date*/
     padding-right: 1em;
  }
  table{
-     line-height: 2.5em;
+    line-height: 2.5em;
  }
  td{
-         border-bottom: dashed gainsboro;
+    border-bottom: dashed gainsboro;
  }
  .fa-basketball-ball:before{
-     font-size: 3em;
+    font-size: 3em;
  }
  
